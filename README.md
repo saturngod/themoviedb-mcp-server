@@ -24,12 +24,12 @@ The server will run `http://localhost:3000/mcp`.
 
 Add the MCP server in your client.
 
-```
+```js
 {
     "imdb-mcp": {
-			"url": "http://localhost:3000/mcp",
-      		"type": "sse"
-		}
+        "url": "http://localhost:3000/mcp",
+        "type": "sse"
+    }
 }
 ```
 
