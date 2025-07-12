@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"imdb-mcp": {
+			"url": "http://localhost:3000/mcp",
+      		"type": "sse"
+		}
+	},
+	"inputs": []
+}
