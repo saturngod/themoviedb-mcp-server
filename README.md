@@ -32,3 +32,39 @@ Add the MCP server in your client.
 		}
 }
 ```
+
+## Supported Function
+
+- `popular_movie`
+- `now_playing_movie`
+- `movie_detail`
+- `cast_list`
+- `search_movie`
+
+
+### 1. `popular_movie`
+- **Parameters:**
+  - `language` (optional, default: 'en-US')
+  - `page` (optional, default: 1)
+
+### 2. `now_playing_movie`
+- **Parameters:**
+  - None (no parameters required)
+
+### 3. `movie_detail`
+- **Parameters:**
+  - `movie_id` (required)
+  - `language` (optional, default: 'en-US')
+
+### 4. `cast_list`
+- **Parameters:**
+  - `movie_id` (required)
+  - `language` (optional, default: 'en-US')
+
+### 5. `search_movie`
+- **Parameters:**
+  - `query` (required)
+  - `page` (optional, default: 1)
+  - `language` (optional, default: 'en-US')
+  - `year` (optional)
+
