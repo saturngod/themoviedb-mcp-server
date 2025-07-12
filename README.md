@@ -26,7 +26,7 @@ Add the MCP server in your client.
 
 ```js
 {
-    "imdb-mcp": {
+    "themoviedb-mcp": {
         "url": "http://localhost:3000/mcp",
         "type": "sse"
     }
